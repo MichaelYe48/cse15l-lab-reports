@@ -10,9 +10,9 @@
 > Tomorrow is also my birthday
 
 I like the following teams:
-* padres
-* angels
-* rays
+* Padres
+* Angels
+* Rays
 
 My favorite players:
 1. Mike Trout
