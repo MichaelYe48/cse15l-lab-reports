@@ -1,1 +1,1 @@
-![link](lab1screenshot.png)
+![link](LabReport1SS.png)
