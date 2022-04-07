@@ -4,7 +4,7 @@
 
 **Today** is the *opening day* for the 2022 MLB season!
 
-[link](https://www.mlb.com/)
+[MLB website](https://www.mlb.com/)
 ![Image](https://upload.wikimedia.org/wikipedia/commons/4/4a/Angelstadiummarch2019.jpg)
 
 > Tomorrow is also my birthday
