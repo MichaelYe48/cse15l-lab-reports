@@ -5,6 +5,7 @@
 ![Image](VScodedownload.png)
 
 * click the appropriate download link for your computer
+* follow the downloading steps given by your computer
 * go into your downloads and open the file
 
 ## Remotely Connecting
