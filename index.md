@@ -31,9 +31,9 @@ print '3 backticks or'
 print 'indent 4 spaces'
 ```
 
-[Lab Report 1](lab-report-1-week-2.md)
+[Lab 2 work](lab-report-1-week-2.md)
 
-[Lab Report 1](https://MichaelYe48.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab 2 work](https://MichaelYe48.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 [Week 2 Lab Report](Week-2-Lab-Report.md)
 
