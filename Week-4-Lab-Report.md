@@ -8,7 +8,7 @@
 
 ![Image](firsterror.png)
 
-sentence here
+The bug in my code was the failure to address possible failure inducing inputs, such as a file with an extra line at the end. This failure inducing input changes one of my variables in the while loop to -1. My while loop cannot terminate when the variables inside are negative, which causes my program to have an infinite loop and cause the "OutOfMemoryError" runtime exception.
 
 ## Code Change 2
 
