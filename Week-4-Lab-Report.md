@@ -16,7 +16,7 @@ The bug in my code was the failure to address possible failure inducing inputs, 
 
 [Lab 2 work](lab-report-1-week-2.md)
 
-![Image](optimizedrun.png)
+![Image](seconderror.png)
 
 sentence here
 
