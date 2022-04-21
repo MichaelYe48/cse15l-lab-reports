@@ -12,7 +12,7 @@ The bug in my code was the failure to address possible failure inducing inputs, 
 
 ## Code Change 2
 
-![Image](VScodedownload.png)
+![Image](fix2.png)
 
 [Failure-inducing input file](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/example3.md)
 
@@ -24,8 +24,8 @@ The bug in my code was the lack of checks to determine the end of a link without
 
 ![Image](VScodedownload.png)
 
-[Lab 2 work](lab-report-1-week-2.md)
+[Failure-inducing input file](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/empty.md)
 
-![Image](optimizedrun.png)
+![Image](thirderror.png)
 
 sentence here
