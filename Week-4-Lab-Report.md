@@ -22,10 +22,10 @@ The bug in my code was the lack of checks to determine the end of a link without
 
 ## Code Change 3
 
-![Image](VScodedownload.png)
+![Image](fix3.png)
 
 [Failure-inducing input file](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/empty.md)
 
 ![Image](thirderror.png)
 
-sentence here
+The third bug in my code regarded the failure to take in account the possibility for other variables to have a negative value. While I accounted for the openBracket variable to have a negative value, I did not think of the other variables that could also be negative, thus a failure inducing input was one that gave the rest of my variables negative values. The symptom this time was an OutOfBounds exception, due to the fact that the value determining the end of a substring was negative, which cannot happen.
