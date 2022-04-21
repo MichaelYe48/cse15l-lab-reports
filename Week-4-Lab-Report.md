@@ -4,9 +4,9 @@
 
 ![Image](VScodedownload.png)
 
-[Lab 2 work](lab-report-1-week-2.md)
+[Failure-inducing input file](https://github.com/MichaelYe48/markdown-parser/blob/main/test-file2.md)
 
-![Image](optimizedrun.png)
+![Image](firsterror.png)
 
 sentence here
 
