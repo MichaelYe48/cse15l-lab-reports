@@ -2,7 +2,7 @@
 
 ## Code Change 1
 
-![Image](VScodedownload.png)
+![Image](fix1.png)
 
 [Failure-inducing input file](https://github.com/MichaelYe48/markdown-parser/blob/main/test-file2.md)
 
