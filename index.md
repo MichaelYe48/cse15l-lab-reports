@@ -39,7 +39,7 @@ print 'indent 4 spaces'
 
 [Week 4 Lab Report](Week-4-Lab-Report.md)
 
-[Week 4 Lab Report](lab-report-3-week-6.md)
+[Week 6 Lab Report](lab-report-3-week-6.md)
 
 **CSE 15L Spring 2022 Announcement**
 
