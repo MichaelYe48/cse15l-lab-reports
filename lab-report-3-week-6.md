@@ -50,15 +50,18 @@ After using the `ssh-keygen` command during which I made a id_rsa_github file, I
 
 ---
 
-![Image](.png)
+![Image](gitpush.png)
 
-sentence
+I ran into problems trying to push the commits I made as I was still prompted to type in my username and password even after setting up the tokens. To fix this problem I looked at Stack Overflow and found this command that fixed the problem.
+`git remote set-url origin git@github.com:<Username>/<Project>.git`
 
 ---
 
-[Commit Link]()
+[Commit Link](https://github.com/MichaelYe48/cse15l-lab-reports/commit/7280ab954f597d70c3150ce6c147930ecd8c2ffe)
 
-sentence
+This link points to my commit history for this lab report since I git pushed my changes I made to this file through my local computer terminal. Very meta. I attached another image of me doing it again down below.
+
+![Image](gitpush2.png)
 
 ## Copy whole directories with `scp -r`
 
