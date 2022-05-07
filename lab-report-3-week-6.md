@@ -65,20 +65,18 @@ This link points to my commit history for this lab report since I git pushed my 
 
 ## Copy whole directories with `scp -r`
 
-![Image](fix3.png)
+![Image](.png)
 
 sentence
 
 ---
 
-![Image](thirderror.png)
+![Image](.png)
 
 sentence
 
 ---
 
-![Image](thirderror.png)
+![Image](.png)
 
 sentence
-
-
