@@ -19,9 +19,9 @@ To edit my config file, I used vim and pasted the following code in:
     User cs15lsp22zzz (use your username)
 ```
 
----
+I got this code from the lab 5 writeup.
 
-This is the command `ssh cse`
+---
 
 ![Image](sshcse.png)
 
@@ -29,10 +29,9 @@ I typed `ssh cse` with `cse` replacing the old `cs15lsp22anq@ieng6.ucsd.edu`.
 
 ---
 
-This is the command `scp labreport3.txt cse:~/cse15l-lab-reports`
 ![Image](scpcse.png)
 
-I used the scp command to move a new file I created into the cse15l-lab-reports directory of the ieng6 server.
+I used the scp command to move a new file I created into the cse15l-lab-reports directory of the ieng6 server. This is the aforementioned command: `scp labreport3.txt cse:~/cse15l-lab-reports`.
 
 ## Setup Github Access from ieng6
 
@@ -65,15 +64,25 @@ This link points to my commit history for this lab report since I git pushed my 
 
 ## Copy whole directories with `scp -r`
 
-![Image](.png)
+![Image](part1ofpic.png)
 
-sentence
+![Image](part2ofpic.png)
+
+![Image](part3ofpic.png)
+
+![Image](part4ofpic.png)
+
+This is the command for copying my whole markdown-parser directory to my ieng6 account: `scp -r . cse:~/markdown-parse`. The command output was very long, which prompted me to take 4 screenshots to capture it all.
 
 ---
 
-![Image](.png)
+![Image](runinserver.png)
 
-sentence
+After ssh-ing into the server, I cd'd into the markdown-parse directory and ran the following files:
+
+`javac -cp lib/junit-4.12.jar:libs/hamcrest-core-1.3.jar:. MarkdownParseTest.java`
+
+`java -cp lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest`.
 
 ---
 
