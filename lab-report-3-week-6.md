@@ -36,12 +36,17 @@ I used the scp command to move a new file I created into the cse15l-lab-reports 
 
 ## Setup Github Access from ieng6
 
-![Image](.png)
+![Image](localpubkey.png)
 
+![Image](githubpubkey.png)
 
-![Image](.png)
+After making the public key on my local computer, I copied the contents in the public key file and pasted it into a new ssh key in github.
 
-sentence here
+---
+
+![Image](private.png)
+
+After using the `ssh-keygen` command during which I made a id_rsa_github file, I got the private key file in my .ssh directory.
 
 ---
 
@@ -51,13 +56,7 @@ sentence
 
 ---
 
-![Image](.png)
-
-sentence
-
----
-
-[Failure-inducing input file](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/empty.md)
+[Commit Link]()
 
 sentence
 
