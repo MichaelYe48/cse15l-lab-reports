@@ -86,6 +86,11 @@ After ssh-ing into the server, I cd'd into the markdown-parse directory and ran 
 
 ---
 
-![Image](.png)
+![Image](megaturd.png)
 
-sentence
+![Image](superturd.png)
+
+![Image](ultraturd2.png)
+
+I combined the scp command from before with the ssh command and used the quotations to run the rest of my commands in the server computer. The resulting command looks like this:
+```scp -r . cse:~/markdown-parser; ssh cse "cd /home/linux/ieng6/cs15lsp22/cs15lsp22anq/markdown-parser/; javac -cp lib/junit-4.12.jar:libs/hamcrest-core-1.3.jar:. MarkdownParseTest.java; java -cp lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest"```
