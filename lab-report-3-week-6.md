@@ -56,9 +56,9 @@ I ran into problems trying to push the commits I made as I was still prompted to
 
 ---
 
-[Commit Link](https://github.com/MichaelYe48/cse15l-lab-reports/commit/7280ab954f597d70c3150ce6c147930ecd8c2ffe)
+[Commit Link](https://github.com/MichaelYe48/cse15l-lab-reports/commits/main/exfile)
 
-This link points to my commit history for this lab report since I git pushed my changes I made to this file through my local computer terminal. Very meta. I attached another image of me doing it again down below.
+This link points to my commit history for this lab report since I git pushed my changes I made to this file through my local computer terminal. Very meta. I attached another image of me doing it again down below, but on my local computer.
 
 ![Image](gitpush2.png)
 
