@@ -34,4 +34,8 @@ public class MarkdownParse {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+//new comment
+>>>>>>> 1929e0786d0ea49b6f775f57cfb40e022b8e1dc9
