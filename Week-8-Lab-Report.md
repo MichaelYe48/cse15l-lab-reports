@@ -22,7 +22,7 @@ This is the corresponding output for my implementation:
 
 This is the corresponding output for the implementation I reviewed:
 
-![Image](VScodedownload.png)
+![Image](teamSnip1.png)
 
 ## Snippet 2
 
@@ -40,7 +40,7 @@ This is the corresponding output for my implementation:
 
 This is the corresponding output for the implementation I reviewed:
 
-![Image](VScodedownload.png)
+![Image](teamSnip2.png)
 
 ## Snippet 3
 
@@ -58,7 +58,7 @@ This is the corresponding output for my implementation:
 
 This is the corresponding output for the implementation I reviewed:
 
-![Image](VScodedownload.png)
+![Image](teamSnip3.png)
 
 ## Question 1
 
