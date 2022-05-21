@@ -18,7 +18,7 @@ Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
 This is the corresponding output for my implementation:
 
-![Image](VScodedownload.png)
+![Image](S1output.png)
 
 This is the corresponding output for the implementation I reviewed:
 
@@ -36,7 +36,7 @@ Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
 This is the corresponding output for my implementation:
 
-![Image](VScodedownload.png)
+![Image](S2output.png)
 
 This is the corresponding output for the implementation I reviewed:
 
@@ -54,7 +54,7 @@ Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
 This is the corresponding output for my implementation:
 
-![Image](VScodedownload.png)
+![Image](S3output.png)
 
 This is the corresponding output for the implementation I reviewed:
 
