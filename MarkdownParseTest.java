@@ -71,7 +71,7 @@ public class MarkdownParseTest {
         Path fileName = Path.of("Snippet1.md");
         String content = Files.readString(fileName);
         ArrayList<String> expected = new ArrayList<>();
-        expected.add("https://mlb.com");
+        expected.add("another link");
 
         assertEquals(expected, mark.getLinks(content));
     }
@@ -81,7 +81,9 @@ public class MarkdownParseTest {
         Path fileName = Path.of("Snippet2.md");
         String content = Files.readString(fileName);
         ArrayList<String> expected = new ArrayList<>();
-        expected.add("https://mlb.com");
+        expected.add("nested link");
+        expected.add("a nested parenthesized url");
+        expected.add("some escaped [ brackets ]");
 
         assertEquals(expected, mark.getLinks(content));
     }
@@ -91,7 +93,7 @@ public class MarkdownParseTest {
         Path fileName = Path.of("Snippet3.md");
         String content = Files.readString(fileName);
         ArrayList<String> expected = new ArrayList<>();
-        expected.add("https://mlb.com");
+        expected.add("this title text is really long and takes up more than one line");
 
         assertEquals(expected, mark.getLinks(content));
     }
