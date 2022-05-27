@@ -10,7 +10,7 @@ Here is the link to the reviewed repository:
 
 This is the expected output I have:
 
-`[another link]`
+``[`google.com, google.com, ucsd.edu]``
 
 Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
@@ -28,7 +28,7 @@ This is the corresponding output for the implementation I reviewed:
 
 This is the expected output I have:
 
-`[nested link, a nested parenthesized url, some escaped [ brackets ]]`
+`[a.com, a.com(()), example.com]`
 
 Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
@@ -46,7 +46,7 @@ This is the corresponding output for the implementation I reviewed:
 
 This is the expected output I have:
 
-`[this title text is really long and takes up more than one line]`
+`[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]`
 
 Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
