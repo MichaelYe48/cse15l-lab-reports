@@ -10,7 +10,7 @@ Here is the link to the reviewed repository:
 
 This is the expected output I have:
 
-``[`google.com, google.com, ucsd.edu]``
+``[`google.com]``
 
 Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
@@ -46,7 +46,7 @@ This is the corresponding output for the implementation I reviewed:
 
 This is the expected output I have:
 
-`[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]`
+`[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
 
 Here is how I turned the expected output into a test in MarkdownParseTest.java:
 
