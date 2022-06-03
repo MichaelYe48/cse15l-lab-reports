@@ -4,7 +4,7 @@ For this lab, I chose 2 tests from `test-files` where my implementation of Markd
 
 ---
 
-I found the tests with different results through using the `vimdiff` command. To do this, I first directed the output of running course MarkdownParse on the 652 tests into a file named "results.txt" Then I directed the output of running my own MarkdownParse on the 652 tests into a file named "myresults.txt" then used the vimdiff command to compare the two files.
+I found the tests with different results through using the `vimdiff` command. To do this, I first directed the output of running the course implementation of MarkdownParse on the 652 tests into a file named `results.txt` Then I directed the output of running my own MarkdownParse on the 652 tests into a file named `myresults.txt` then used the vimdiff command to compare the two files.
 
 These are the pictures I have documenting my process:
 
