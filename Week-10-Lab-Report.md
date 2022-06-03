@@ -24,18 +24,19 @@ These are the links to the two files with different results:
 
 Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[/bar\* "ti\*tle"]`. My expected output should be on the left below, the course output should be on the right.
 
-![Image](test2output.png)
+![Image](test1output.png)
 
-In this case, I will be examining the problem in my implementation. The bug occurs when determining the result that is to be printed from the argument the method has converted into a string. Rather than adding to the output the markdown version of the string inside the open and closed parantheses, the method should be adding the string inside the open and closed brackets to the output instead. Here is a picture of the section of the method that needs to be changed:
+In this case, I will be examining the problem in the course implementation. The bug occurs when in line 74, where the condition determining whether or not the provided string is a valid link fails to account for cases where the input could be something other than just an empty space or a new line.
+
 
 ![Image](test2codeproblem.png)
 
 ## Test 2
 
-Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[foo]`. My expected output should be on the left below, the course output should be on the right.
+Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[/f&ouml;&ouml; "f&ouml;&ouml;"]`. My expected output should be on the left below, the course output should be on the right.
 
-![Image](test1output.png)
+![Image](test2output.png)
 
-In this case, I will be examining the problem in the course implementation. The bug occurs when in line 74, where the condition determining whether or not the provided string is a valid link fails to account for cases where the input could be something other than just an empty space or a new line.
+In this case, I will be examining the problem in my implementation. The bug occurs when determining the result that is to be printed from the argument the method has converted into a string. Rather than adding to the output the markdown version of the string inside the open and closed parantheses, the method should be adding the string inside the open and closed brackets to the output instead. Here is a picture of the section of the method that needs to be changed:
 
 ![Image](test1codeproblem.png)
