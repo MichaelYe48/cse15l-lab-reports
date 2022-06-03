@@ -8,7 +8,7 @@ I found the tests with different results through using the `vimdiff` command. To
 
 These are the pictures I have documenting my process:
 
-![Image](lab10prepare.png)
+![Image](Lab10prepare.png)
 
 ![Image](diffcommand.png)
 
