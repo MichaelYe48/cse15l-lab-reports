@@ -22,7 +22,7 @@ These are the links to the two files with different results:
 
 ## Test 1
 
-Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[]`.
+Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[]`. My expected output should be on the left below, the course output should be on the right.
 
 ![Image](test1output.png)
 
@@ -32,7 +32,7 @@ In this case, I will be examining the problem in my implementation. The bug occu
 
 ## Test 2
 
-Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[]`.
+Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[foo]`. My expected output should be on the left below, the course output should be on the right.
 
 ![Image](test2output.png)
 
