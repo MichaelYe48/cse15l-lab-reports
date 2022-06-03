@@ -1,6 +1,6 @@
 # Week 10 Lab Report
 
-For this lab, I chose 2 tests from `test-files` where my implementation of MarkdownParse produced an output that differed from the other. These tests corresponded to different bugs on my side that could not be fixed with one code change.
+For this lab, I chose 2 tests from `test-files` where my implementation of MarkdownParse produced an output that differed from the course implementation. These tests corresponded to different bugs on my side that could not be fixed with one code change.
 
 ---
 
