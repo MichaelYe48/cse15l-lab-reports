@@ -43,6 +43,8 @@ print 'indent 4 spaces'
 
 [Week 8 Lab Report](Week-8-Lab-Report.md)
 
+[Week 10 Lab Report](Week-10-Lab-Report.md)
+
 **CSE 15L Spring 2022 Announcement**
 
 We will be using [Autograder](https://autograder.ucsd.edu/queue/615) as the student queue during TA/tutor office hours.
