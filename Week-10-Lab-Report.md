@@ -36,6 +36,6 @@ Neither implementation is correct, since the course implementation returns no li
 
 ![Image](test2output.png)
 
-In this case, I will be examining the problem in the course implementation. The bug occurs when in line 74, where the condition determining whether or not the provided string is a valid link fails to account for cases where the input could be something other than just an empty space or a new line
+In this case, I will be examining the problem in the course implementation. The bug occurs when in line 74, where the condition determining whether or not the provided string is a valid link fails to account for cases where the input could be something other than just an empty space or a new line.
 
 ![Image](test2codeproblem.png)
