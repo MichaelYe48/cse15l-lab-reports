@@ -16,9 +16,9 @@ These are the pictures I have documenting my process:
 
 These are the links to the two files with different results:
 
-[test-file-22](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/test-files/22.md)
+[test-file-22](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md)
 
-[test-file-32](https://github.com/MichaelYe48/cse15l-lab-reports/blob/main/test-files/32.md)
+[test-file-32](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/32.md)
 
 ## Test 1
 
