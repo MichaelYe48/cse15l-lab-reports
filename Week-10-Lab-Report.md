@@ -16,27 +16,27 @@ These are the pictures I have documenting my process:
 
 These are the links to the two files with different results:
 
-[test-file-22](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md)
+[test-file-481](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/481.md)
 
-[test-file-32](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/32.md)
+[test-file-487](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.md)
 
 ## Test 1
 
-Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[/bar\* "ti\*tle"]`. My expected output should be on the left below, the course output should be on the right.
+Since the CommonMark demo site indicated that the 481st test file should produce a link, the course implementation returns the wrong output while mine returned correctly. The expected output should be `[/uri "title"]`, which is the same as my output but differs from the course output of `[]`. My actual output should be on the left below, the course output should be on the right.
 
-![Image](test1output.png)
+![Image](481.png)
 
-In this case, I will be examining the problem in the course implementation. The bug occurs when in line 74, where the condition determining whether or not the provided string is a valid link fails to account for cases where the input could be something other than just an empty space or a new line.
+In this case, I will be examining the problem in the course implementation. The bug occurs when in line 75, where the if-statement determining whether or not the provided string is a valid link fails to account for cases where a valid link is produced despite having a space in the url portion of the markdown code. To fix this issue, the if-statement needs more specific conditions, like checking for additional symbols to accurately determine valid urls.
 
 
 ![Image](test2codeproblem.png)
 
 ## Test 2
 
-Neither implementation is correct, since the course implementation returns no links while my implementation returns the scrambled characters. The expected output should be: `[/f&ouml;&ouml; "f&ouml;&ouml;"]`. My expected output should be on the left below, the course output should be on the right.
+Since the CommonMark demo site indicated that the 487th test file should not produce a link, the course implementation returns the right output while mine did not. The expected output should be `[]`, which is what the course output also had, but mine was `[/my uri]`. My actual output should be on the left below, the course output should be on the right.
 
-![Image](test2output.png)
+![Image](487.png)
 
-In this case, I will be examining the problem in my implementation. The bug occurs when determining the result that is to be printed from the argument the method has converted into a string. Rather than adding to the output the markdown version of the string inside the open and closed parantheses, the method should be adding the string inside the open and closed brackets to the output instead. Here is a picture of the section of the method that needs to be changed:
+In this case, I will be examining the problem in my implementation. I simply did not account for cases with an invalid url. My code only checks for the brackets and parantheses and merely returns the string value inside the parantheses. To fix this problem, I would have to implement additional if-statements to check if the string inside the parantheses is an actual url or not.
 
 ![Image](test1codeproblem.png)
